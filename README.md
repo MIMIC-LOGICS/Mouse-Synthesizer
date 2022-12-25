@@ -1,5 +1,5 @@
 <div align="center">
-<h1> <b> Mouse-Synthetizer</b></h1>
+<h1> <b> Mouse-Synthesizer</b></h1>
 <p>The most advanced mouse movement synthetizer based on the human hand <b>biometric</b> theory</p>
 <img src="https://avatars.githubusercontent.com/u/121403675?s=400&u=4ce7a2f06e85191ad4e375ea7128b5b5717baf8a&v=4)">
 </div>
@@ -21,8 +21,8 @@ Negligible was not a word we ever considered throughout our journey, we aspire t
 # Human-Behaviour
 
 The project is built on human biometric theory, thus almost impossible to be recognized by any form of antibots nor human.
-In the image below, one is a real human generated movement, the other is a synthetized trajectory from MIMIC.
-More images are avaible <a href="https://github.com/MIMIC-LOGICS/Mouse-Synthetizer/tree/main/images">here</a>.
+In the image below, one is a real human generated movement, the other is a synthesized trajectory from MIMIC.
+More images are avaible <a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images">here</a>.
 
 <img src="https://raw.githubusercontent.com/MIMIC-LOGICS/Mouse-Synthetizer/main/images/sample_1.png">
 
@@ -41,7 +41,7 @@ Highly customizable in every aspect.
 
 # Consistency
 
-MIMIC is able to generate valid synthetized trajectory consistently, without being flagged by any type of algorithm.
+MIMIC is able to generate valid synthesized trajectory consistently, without being flagged by any type of algorithm.
 
 # Acknowledgements
 
