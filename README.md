@@ -54,7 +54,7 @@ MIMIC is able to generate valid synthesized trajectory consistently, without bei
 
 # Comparison
 
-Here's a short comparison with some common mouse synthetizers on the market.<br>
+Here's a short comparison with some common mouse synthesizers on the market.<br>
 Multiple amplitude spectrum of the X,Y positions, sampled at a uniform frequency of 60Hz, were compared. The comparison is not accurate, since it assumes an uniform time, and each movement differs in terms of sampling size from the other (it was not normalized with PSD). However it is sufficient to draw based conclusion about the lead of MIMIC compared to the other solutions.
 
 <div align="center">
