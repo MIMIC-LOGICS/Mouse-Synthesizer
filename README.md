@@ -42,8 +42,8 @@ Highly customizable in every aspect.
   <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/frequency/sample_200HZ.png">
 
 - Customizable <b>Screen dimension</b><br>
-  Define a screen dimension, so that the natural evolution of the mouse trajectory will be bounded to the choosen box dimension.
-  In other terms, the mouse trajectory will be confined to the screen.
+  Define a custom screen dimension, so that the natural evolution of the mouse trajectory will be bounded to the choosen box dimension.
+  In other terms, the mouse trajectory will not end outside the screen. In the example below the screen used was 1280x1280.
   <img src="https://raw.githubusercontent.com/MIMIC-LOGICS/Mouse-Synthesizer/main/images/self-correcting/self-correcting4.png">
 
  
@@ -51,11 +51,12 @@ Highly customizable in every aspect.
 # Consistency
 
 MIMIC is able to generate valid synthesized trajectory consistently, without being flagged by any type of algorithm.
+Particular attention was addressed to the stabilization of the system, so that the probability of generating unstable/inaccurate results is made very low. 
 
 # Comparison
 
 Here's a short comparison with some common mouse synthesizers on the market.<br>
-Multiple amplitude spectrum of the X,Y positions, sampled at a uniform frequency of 60Hz, were compared. The comparison is not accurate, since it assumes an uniform time, and each movement differs in terms of sampling size from the other (it was not normalized with PSD). However it is sufficient to draw based conclusion about the lead of MIMIC compared to the other solutions.
+Multiple amplitude spectrum from the X,Y positions of mouse data, sampled at a uniform frequency of 60Hz, were compared. The comparison is not accurate, since it assumes an uniform time, and each movement differs in terms of sampling size from the other (it was not normalized with PSD). However it is sufficient to draw based conclusion about the greatness of MIMIC compared to the other solutions.
 
 <div align="center">
 <i><b> REAL mouse spectrum</b> </i>
