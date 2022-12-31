@@ -35,19 +35,51 @@ Highly customizable in every aspect.
   - Customizable <b>time</b> occurence of each stop  </li>
   - Customizable bounding box between stops (<i>soon</i>)
 - Customizable <b>Noise</b>
-- Customizable Sampling Frequency of the movement
+  Define the SNR of the signal. Look at examples <a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/SNR">here</a>.
+
+- Customizable <b>Sampling Frequency</b> of the movement
+  Choose the frequency you want MIMIC to sample at, all range admitted. It is also possible to randomize the frequency generation making it <b>non         uniform</b>. In the example below, a non uniform frequency of 200Hz is used.
+  <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/frequency/sample_200HZ.png">
 
 - Customizable Screen dimension.<br>
-  It is possible to define a screen dimension, so that the natural evolution of the mouse trajectory will be bounded to the choosen box dimension.
-  In other terms, the mouse trajectory will be confined (or slightly) to the screen.
+  Define a screen dimension, so that the natural evolution of the mouse trajectory will be bounded to the choosen box dimension.
+  In other terms, the mouse trajectory will be confined to the screen.
   <img src="https://raw.githubusercontent.com/MIMIC-LOGICS/Mouse-Synthesizer/main/images/self-correcting/self-correcting4.png">
 
-  
-
+ 
 
 # Consistency
 
 MIMIC is able to generate valid synthesized trajectory consistently, without being flagged by any type of algorithm.
+
+# Comparison
+
+Here's a short comparison with some common mouse synthetizers on the market.<br>
+Multiple amplitude spectrum of the X,Y positions, sampled at a uniform frequency of 60Hz, were compared. The comparison is not accurate, since it assumes an uniform time, and each movement differs in terms of sampling size from the other (it was not normalized with PSD). However it is sufficient to draw based conclusion about the lead of MIMIC compared to the other solutions.
+
+<div align="center">
+<i><b> REAL mouse spectrum</b> </i>
+<img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/REAL/REAL-6.png">
+
+<br><br>
+<i><b> Bot B  </b></i>
+<img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/botB/AI-PARSER-FFT.png">
+<br><br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botB">Bot B </a> spectrum is completely different from a real spectrum, with a high density power in the low frequency. Although this solution is popular it underperforms in every aspect.
+<br><br>
+
+<i><b> Bot A</b> </i>
+<img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/botA/MACT-1.png">
+
+<br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botA">Bot A</a> performs better than bot B, however it generates a spectrum content spread over the whole signal bandwidth, resembling a white noise spectrum. <br> We may speculate that it was generated with some sort of Gaussian Noise Algorithm, and has no characteristic that resembles a real signal (or little).<br> Furthermore at every generation the spectrum always has similar shapes.
+
+<br><br>
+
+<i><b> Mimic </b> </i>
+<img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/MIMIC/GENERATED-1.png">
+<br><b> Mimic </b> outperforms every synthetizers, and propose an analogous spectrum to the real signal spectrum, making it indistinguishable in a frequency analysis. The spectrum is different and reliable at every generation.
+
+<br>
+</div>
 
 # Acknowledgements
 
