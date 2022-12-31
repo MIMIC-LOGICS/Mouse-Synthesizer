@@ -41,7 +41,7 @@ Highly customizable in every aspect.
   Choose the frequency you want MIMIC to sample at, all range admitted. It is also possible to randomize the frequency generation making it <b>non         uniform</b>. In the example below, a non uniform frequency of 200Hz is used.
   <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/frequency/sample_200HZ.png">
 
-- Customizable Screen dimension.<br>
+- Customizable <b>Screen dimension</b><br>
   Define a screen dimension, so that the natural evolution of the mouse trajectory will be bounded to the choosen box dimension.
   In other terms, the mouse trajectory will be confined to the screen.
   <img src="https://raw.githubusercontent.com/MIMIC-LOGICS/Mouse-Synthesizer/main/images/self-correcting/self-correcting4.png">
