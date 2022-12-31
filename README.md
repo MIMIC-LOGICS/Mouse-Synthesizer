@@ -34,10 +34,10 @@ Highly customizable in every aspect.
   - Customizable <b>starting</b> and <b>ending position</b> of each stop</li>
   - Customizable <b>time</b> occurence of each stop  </li>
   - Customizable bounding box between stops (<i>soon</i>)
-- Customizable <b>Noise</b>
+- Customizable <b>Noise</b><br>
   Define the SNR of the signal. Look at examples <a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/SNR">here</a>.
 
-- Customizable <b>Sampling Frequency</b> of the movement
+- Customizable <b>Sampling Frequency</b> of the movement<br>
   Choose the frequency you want MIMIC to sample at, all range admitted. It is also possible to randomize the frequency generation making it <b>non         uniform</b>. In the example below, a non uniform frequency of 200Hz is used.
   <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/frequency/sample_200HZ.png">
 
