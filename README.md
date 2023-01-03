@@ -30,7 +30,7 @@ More images are avaible <a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesiz
 
 Highly customizable in every aspect.
 
-- Customizable number of stops at each generation
+- Customizable number of <b>stops</b> at each generation. Each stop increases the level of complexity of the overall trajectory. Stops are point of more noticeable change in velocity, and, for istance, can be overshooting positions or mouse clicks.
   - Customizable <b>starting</b> and <b>ending position</b> of each stop</li>
   - Customizable <b>time</b> occurence of each stop  </li>
   - Customizable bounding box between stops (<i>soon</i>)
