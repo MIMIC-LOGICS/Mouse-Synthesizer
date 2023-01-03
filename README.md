@@ -71,7 +71,7 @@ Multiple amplitude spectrum from the X,Y positions of mouse data, sampled at a u
 <i><b> Bot A</b> </i>
 <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/botA/MACT-1.png">
 
-<br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botA">Bot A</a> performs better than bot B, however it generates a spectrum content spread over the whole signal bandwidth, resembling a white noise spectrum. <br> We may speculate that it was generated with some sort of Gaussian Noise Algorithm, and has no characteristic that resembles a real signal (or little).<br> Furthermore at every generation the spectrum always has similar shapes.
+<br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botA">Bot A</a> performs better than bot B, however it generates a spectrum content spread over the whole signal bandwidth, resembling a white noise spectrum. <br> We may speculate that it was generated with some sort of Gaussian Algorithm, and has no characteristic that resembles a real signal (or little).<br> Furthermore at every generation the spectrum always has similar shapes.
 
 <br><br>
 
