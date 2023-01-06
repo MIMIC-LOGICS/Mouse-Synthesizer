@@ -65,13 +65,13 @@ Multiple amplitude spectrum from the X,Y positions of mouse data, sampled at a u
 <br><br>
 <i><b> Bot B  </b></i>
 <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/botB/AI-PARSER-FFT.png">
-<br><br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botB">Bot B </a> spectrum is completely different from a real spectrum, with a high density power in the low frequency. Although this solution is popular it underperforms in every aspect.
+<br><br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botB">Bot B </a> spectrum does not resemble real movements spectrum, with the content spectrum sharply fluctuating at different near frequencies.. Although this solution is popular it underperforms, and could be flagged in a frequency-domain analysis.
 <br><br>
 
 <i><b> Bot A</b> </i>
 <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/botA/MACT-1.png">
 
-<br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botA">Bot A</a> performs better than bot B, however it generates a spectrum content spread over the whole signal bandwidth, resembling a white noise spectrum. <br> We may speculate that it was generated with some sort of Gaussian Algorithm and high-frequency noise, and has little characteristic that resembles a real signal .<br> Furthermore at every generation the spectrum always has similar shapes.
+<br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botA">Bot A</a> performs better than bot B, however it generates a spectrum content spread over the whole signal bandwidth, resembling a white noise spectrum. <br> We may speculate that it was generated with some sort of Gaussian Algorithm and high-frequency noise, and has only some characteristic that resembles a real signal. <br>This spectrum may actually pass a spectrum analysis check, however, the fact that the movements synthesized are always the same could hurt an API generator after a few generations.
 
 <br><br>
 
