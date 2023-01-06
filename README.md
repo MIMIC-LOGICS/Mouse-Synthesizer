@@ -65,7 +65,7 @@ Multiple amplitude spectrum from the X,Y positions of mouse data, sampled at a u
 <br><br>
 <i><b> Bot B  </b></i>
 <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/botB/botb_sample.png">
-<br><br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botB">Bot B </a> spectrum does not resemble real movements spectrum, with the content spectrum sharply fluctuating at different near frequencies.. Although this solution is popular it underperforms, and could be flagged in a frequency-domain analysis.
+<br><br><a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images/spectrum/botB">Bot B </a> spectrum does not resemble real movements spectrum, with the content spectrum sharply fluctuating at different near frequencies. Although this solution is popular it underperforms, and could be flagged in a frequency-domain analysis.
 <br><br>
 
 <i><b> Bot A</b> </i>
