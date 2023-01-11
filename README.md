@@ -77,7 +77,7 @@ Multiple amplitude spectrum from the X,Y positions of mouse data, sampled at a u
 
 <i><b> Mimic </b> </i>
 <img src="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/blob/main/images/spectrum/MIMIC/GENERATED-1.png">
-<br><b> Mimic </b> outperforms every synthetizers, and propose an analogous spectrum to the real signal spectrum, making it indistinguishable in a frequency analysis. The spectrum is different and reliable at every generation.
+<br><b> Mimic </b> outperforms every synthetizer, and propose an analogous spectrum to the real signal spectrum, making it indistinguishable in a frequency analysis. The spectrum is different and reliable at all generations.
 
 <br>
 </div>
