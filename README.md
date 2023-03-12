@@ -21,7 +21,7 @@ Negligible was not a word we ever considered throughout our journey, we aspire t
 # Human-Behaviour
 
 The project is built on human biometric theory, thus almost impossible to be recognized by any form of antibots nor human.
-In the image below, one is a real human generated movement, the other is a synthesized trajectory from MIMIC.
+In the image below, one is a real human generated movement(blue), the other is a synthesized trajectory from MIMIC.
 More images are avaible <a href="https://github.com/MIMIC-LOGICS/Mouse-Synthesizer/tree/main/images">here</a>.
 
 <img src="https://raw.githubusercontent.com/MIMIC-LOGICS/Mouse-Synthesizer/main/images/sample_1.png">
