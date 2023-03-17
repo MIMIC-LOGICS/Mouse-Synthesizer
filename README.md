@@ -7,7 +7,7 @@
 # Description
 
 A deep dive into the abstruse ocean of human hand biometrics. 
-The project sets to unravel the buried secrets concealed behind the reliquies of this profound sea.
+The project sets to unravel the buried secrets concealed behind the reliquies of the NeuroPhysiological Basis of the human mouse movements. 
 
 <b>MIMIC aims to synthesize human-like mouse movements</b>, in their minute detail.
 Negligible was not a word we ever considered throughout our journey, we aspire to achieve perfection and consistency at any generation.
